@@ -1,0 +1,43 @@
+.download-button{
+    margin:10px auto;
+    display: block;
+    position: relative;
+    width: 150px;
+    top: 5% ;
+    text-align:center;
+    padding:5px;
+    border-radius: 1.2em;
+    color: white;   
+    background-color: rgb(1, 11, 53);
+}
+
+.download-button:hover{
+    scale: 1.1;
+    transition: .7s;
+}
+
+.one234{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin:10px ;
+}
+
+.temps{
+    
+    margin-left:15px;
+    color:#fff;
+    border-radius: 2px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(1, 11, 53);
+    cursor: pointer;
+}
+.temps:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    /* background-color: antiquewhite; */
+}
+
+

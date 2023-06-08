@@ -1,0 +1,10 @@
+.container h2{
+    background-color: #CCCCCC;
+    border-width: 1px ;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    letter-spacing:2px;
+    text-indent: 2px;
+}
+

@@ -1,0 +1,26 @@
+.job-list{
+    display:block;
+    position:relative;
+    padding:10px 50px;
+    width:100%;
+    margin-top:5px;
+    height:20%;
+    border-radius:5px;
+    background-color:rgb(199, 192, 192);
+  }
+
+.job-list h5{
+  display: inline-block;
+  width: 5%;
+}
+ 
+#h5-left{
+  width: 0;
+  position: absolute;
+  left:15px;
+}
+
+#url-span{
+display: inline-block;
+position: relative;
+}

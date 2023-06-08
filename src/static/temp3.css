@@ -1,0 +1,158 @@
+
+.fullpage3{
+  display: block;
+    width: 600px;
+    background-color: #fff;
+    margin: auto;
+    height: 850px;
+    box-shadow: 6px 10px 28px 0 rgba(0,0,0,0.4);
+}
+.rela{
+  height: inherit;
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+  height: 100%;
+}
+
+.heads {
+     text-transform: uppercase;
+     position: relative;
+     margin: auto;
+     display: inline-block;
+     width: 100%;
+     text-align: center; 
+  }
+
+.justified {
+  width: 100%;
+  text-align:start
+}
+
+.rela h3 {
+  font-family: 'Open Sans';
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #000;
+}
+
+.rela .top-bar {
+  display:block;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #848484;
+  color: #fff;
+}
+
+.rela .name {
+  display:block;
+  position: relative;
+  top:15px;
+  right: -20%;
+  height: 120px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.rela .side-bar {
+ display:block; 
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  width: 250px;
+  background-color: rgb(156, 221, 227);
+  padding:150px 10px ;
+  height:95%;
+}
+.rela .mugshot { 
+ display:block;
+  position: relative;
+  margin: auto;
+  top:-25%;
+  left:-15%;
+  width: 20%;
+}
+.rela .mugshot .logo {
+  margin: 23px;
+}
+.rela .logo {
+ display:block; 
+  position: absolute;
+  border:2px solid black;
+  color: #000;
+  height: 100px;
+  width: 100px;
+}
+
+.rela .headEdu{
+  display:block; 
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin: 60px auto 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #888;
+}
+
+.side-header {
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin: 60px auto 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #888;
+}
+
+.list-thing {
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.content-container {
+  display:block; 
+  position: relative;
+  margin: auto;
+  margin-right: 0;
+  width: calc(100% - 270px);
+  padding: 20px;
+}
+
+.rela .title {
+  display: inline-block;
+  width: 100%;
+  text-align: center; 
+}
+.rela .separator {
+  display:block; 
+  position: relative;
+  margin: auto;
+  width: 240px;
+  height: 2px;
+}
+.greyed {
+  background-color: #ddd;
+  max-width: 580px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  letter-spacing: 6px;
+  font-weight: 600;
+}
+.levels{
+  background-color: #ddd;
+  padding: 5px;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  display:block; 
+  position: relative;
+  margin: auto;
+ text-transform: uppercase;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&family=Sacramento&display=swap');
+
+
+
+
+#inner {
+    display: block;
+    border: solid #666666;
+    border-width: 8px 0 2px 0;
+}
+.box-model {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+#hd {
+    display: block;
+    border-bottom: 1px solid #ccc
+}
+#hd h2 {
+    display: block;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+} 
+#footer p {
+    display: inline-flex;
+   
+} 
+#footer code{
+    display: inline-flex;
+}
+
+.heading h1 {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+h2 {
+    display: inline-block;
+    width: 50%;
+    font-size: 80%;
+}
+
+p {
+    display: flex;
+    font-size: 100%;
+} 
+a {
+    display: block;
+    color: #990003;
+    text-decoration-line: none;
+}
+
+.box-model .inner-box-model {
+    display: block;
+    width: 80.2%;
+}
+.box-model div.first {
+    display: block;
+    width: 12.3%;
+}
+
+.main2 {
+    display: inline;
+}
+
+.level2 {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+.level2 h1 {
+    /* display:block; */
+    text-transform: uppercase;
+    font-weight: inherit;
+    font-size: larger
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+}
+
+.right {
+    display: inline-block;
+    width: 90%;
+}
+
+.heading h1 {
+    text-transform: uppercase;
+}
+
+.fullpage {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 63%;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 6px 10px 28px 0 rgba(0, 0, 0, 0.4);
+}
+.margin-page {
+    margin: 2px;
+}
+
+@media only screen and (max-width:700px) {
+    
+
+    .fullpage {
+
+        width: 90%;
+        background-color: #fff;
+    }
+    .margin-page {
+        margin: 2px;
+    }
+}
